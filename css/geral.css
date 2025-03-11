@@ -1,0 +1,44 @@
+body {
+  background: var(--cor-p1);
+}
+
+.omelette-foto {
+  border-radius: 25px;
+}
+
+main {
+  max-width: 1000px;
+  background: var(--cor-w);
+  margin: 50px auto;
+  padding: 40px 50px;
+  border-radius: 50px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 48px;
+}
+
+.intro h1 {
+  margin-bottom: 16px;
+}
+
+.preparation {
+  background: var(--cor-s1);
+  border-radius: 25px;
+  padding: 25px;
+  margin-bottom: 48px;
+}
+
+.preparation h2 {
+  margin-bottom: 16px;
+}
+
+.preparation li {
+  margin-bottom: 12px;
+}
+
+.preparation li::marker {
+  color: var(--cor-s2);
+  font-size: 1rem;
+}

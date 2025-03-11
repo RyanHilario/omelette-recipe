@@ -1,0 +1,17 @@
+img {
+  max-width: 100%;
+}
+
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+.box {
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+}
