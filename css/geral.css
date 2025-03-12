@@ -19,15 +19,18 @@ main {
   gap: 48px;
 }
 
+/* INTRO */
+
 .intro h1 {
   margin-bottom: 16px;
 }
+
+/* PREPARATION */
 
 .preparation {
   background: var(--cor-s1);
   border-radius: 25px;
   padding: 25px;
-  margin-bottom: 48px;
 }
 
 .preparation h2 {
@@ -35,10 +38,27 @@ main {
 }
 
 .preparation li {
-  margin-bottom: 12px;
+  padding-left: 12px;
 }
 
 .preparation li::marker {
   color: var(--cor-s2);
   font-size: 1rem;
+}
+
+/* INSTRUCTIONS */
+.instructions li::marker {
+  color: var(--cor-p4);
+  font-weight: bold;
+}
+
+/* NUTRITION */
+.nutrition > p {
+  margin-bottom: 30px;
+}
+
+.nutrition-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 0;
 }

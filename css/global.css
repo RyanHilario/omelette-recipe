@@ -15,3 +15,29 @@ ul {
   width: 100%;
   box-sizing: border-box;
 }
+
+h2 {
+  margin-bottom: 24px;
+}
+
+li {
+  padding-left: 20px;
+}
+
+ul li:nth-child(n + 2) {
+  margin-top: 12px;
+}
+
+ol li:nth-child(n + 2) {
+  margin-top: 20px;
+}
+
+.bt {
+  border-top: 2px solid var(--cor-p2);
+  padding-top: 48px;
+}
+
+.bb:nth-last-child(n + 3) {
+  border-bottom: 2px solid var(--cor-p2);
+  padding-bottom: 20px;
+}
