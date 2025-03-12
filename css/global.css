@@ -41,3 +41,22 @@ ol li:nth-child(n + 2) {
   border-bottom: 2px solid var(--cor-p2);
   padding-bottom: 20px;
 }
+
+@media (max-width: 700px) {
+  h2 {
+    margin-bottom: 12px;
+  }
+
+  ul,
+  ol {
+    padding-left: 30px;
+  }
+
+  li {
+    padding-left: 0px;
+  }
+
+  .bt {
+    padding-top: 24px;
+  }
+}
