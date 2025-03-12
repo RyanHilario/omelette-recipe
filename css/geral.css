@@ -62,3 +62,11 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 20px 0;
 }
+
+@media (max-width: 700px) {
+  main {
+    padding: 20px;
+    margin-inline: 20px;
+    border-radius: 25px;
+  }
+}
